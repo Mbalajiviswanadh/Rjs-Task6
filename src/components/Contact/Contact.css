@@ -1,0 +1,49 @@
+.contact {
+    flex-direction: column;
+  }
+  #email-box{
+    font-size: medium;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+
+  }
+  input,:placeholder-shown{
+    color: green;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #682ae9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: green;
+  }
+  
